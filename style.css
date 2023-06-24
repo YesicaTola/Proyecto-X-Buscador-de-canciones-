@@ -1,0 +1,156 @@
+html {
+  height: 100%;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  background: linear-gradient(-45deg, #FF69B4, #b53fe4, #0f0e11, #47ff8e);
+  background-size: 400% 2000%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.Pag-inicio {
+  padding-left: 20px;
+  width: 100%;
+  min-height: 450px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.headerPrincipal {
+  margin: 0%;
+  padding: 8px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  color: white;
+  text-align: center;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+
+}
+
+.headerPrincipal li {
+  margin: 8px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 100px;
+}
+
+#btn-tops {
+  box-sizing: border-box;
+  color: white;
+  align-items: center;
+  padding: 10px 32px;
+  gap: 10px;
+  width: 220px;
+  height: 49px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#btn-tops:hover {
+  background: linear-gradient(99.74deg, #06DBAC 5.23%, #BD00FF 92.7%);
+}
+
+
+#Imagen1 {
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  left: 801px;
+  top: -28px;
+}
+
+#Imagen2 {
+  width: 50%;
+  height: 450px;
+}
+
+.Pag-2 {
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+form input {
+  box-sizing: border-box;
+  width: 400px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+input[type="text"]::placeholder {
+  color: whitesmoke;
+}
+
+#btn-buscar {
+  box-sizing: border-box;
+  color: white;
+  align-items: center;
+  gap: 10px;
+  width: 70px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#btn-buscar:hover {
+  background: linear-gradient(99.74deg, #06DBAC 5.23%, #BD00FF 92.7%);
+}
+
+.spotify-player {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+iframe {
+
+  height: 100px;
+}

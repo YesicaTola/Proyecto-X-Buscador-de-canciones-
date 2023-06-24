@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>&#128266; Proyecto X</title>
+  <link href='https://fonts.googleapis.com/css2?family=Cookie&display=swap' rel='stylesheet'>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <img src=Img/logo-proyectoX.png id="logo">
+
+  <nav>
+    <ul class="headerPrincipal">
+      <li><a href="#Proyecto">Acerca de</a></li>
+      <li><a href="#Top">Top Hits</a></li>
+      <li><a href="#equipo">Contáctanos</a></li>
+    </ul>
+  </nav>
+
+  <div class="Pag-inicio">
+    <h1 style="font-size: 50px; width: 60%;">Sumérgete en el mundo de la música</h1>
+    <p id="subtitulo" style="width: 60%;">¿Listo para descubrir las canciones que están en boca de todos? </p>
+
+    <img src=Img/Pag1.png id="Imagen1" ; width="300px" alt="300px">
+
+
+    <button id="btn-tops" onclick="scrollToElement('#Top')">DESCUBRE MÁS</button>
+
+  </div>
+
+  <br>
+  <div class="Pag-2">
+    <h1 id="Proyecto" style="font-size: 50px; width: 50%; padding-top: 60px;">Encuentra tu canción favorita una y otra
+      vez.</h1>
+    <img src=Img/Pag2.png id="Imagen2">
+    <img src=Img/img-3.png id="Imagen2">
+    <h1 style="font-size: 50px; width: 50%; padding-top: 60px;">Explora géneros, encuentra tu
+      estilo.</h1>
+
+  </div>
+
+  <div class="Pag-Tops">
+    <h1 id="Top" style="text-align: center; font-size: 60px;">ESCUCHA TU CANCIÓN FAVORITA</h1>
+
+    <form>
+      <input id="buscador" type="text" name="query" style="color: white;" placeholder="Busca tu canción favorita...">
+      <button id="btn-buscar">Buscar</button>
+    </form>
+    <br>
+    <div class="spotify-player"></div>
+
+
+  </div>
+
+  <div class="contacto">
+    <h4 id="equipo" style="text-align: center;">Desarrollado por:</h4>
+    <p style="text-align: center; font-size: 15px"> &copy;Grupo Proyecto X</p>
+
+  </div>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
